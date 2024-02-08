@@ -15,4 +15,6 @@ O projeto usa Viper para gerenciar as váriaveis de ambiente, que podem ser conf
 
 O projeto possui testes integrados ao github actions e também pode ser testado com ``go test -v ./...``
 
-URL CloudRun:
+Arquivo principal do projeto: https://github.com/aluferraz/go-expert-cep-cloudrun/blob/9af4e910f335af93eb9e50952489c6fd6a74995a/internal/usecase/get_temperature/get_temperature.go#L1
+
+URL CloudRun: https://go-expert-cep-cloudrun-tg3vmarlxq-uc.a.run.app
