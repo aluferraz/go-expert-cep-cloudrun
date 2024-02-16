@@ -24,6 +24,12 @@ Clonar o repositório
 
 Preencha sua API_KEY no docker-compose:
 https://github.com/aluferraz/go-expert-cep-cloudrun/blob/48e1a7ade24732f5b557370e27d5546d06406ab1/docker-compose.yml#L8C1-L9C39
+Em desenvolvimento, voce também pode criar um arquivo .env na raíz do projeto:
+```
+WEATHER_API_KEY=mysupersecret
+```
 
-Execute:
+Para executar a versão em dev:
 ``docker compose up``
+Para executar a versão em prd (lembre-se de configurar a variavel de ambiente no docker-compose):
+``docker compose -f docker-compose.prod.yml up ``
